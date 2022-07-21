@@ -77,7 +77,7 @@ function solution(sales, links) {
             const b = teams.get(leaders[j]).find(x => x.i === leaders[i])
             if (a) {
                 dupl = a;
-            } else (b) {
+            } else {
                 dupl = b;
             }
             if (dupl) {
